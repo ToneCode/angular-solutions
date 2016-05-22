@@ -2,7 +2,7 @@ var app = angular.module("DevOps",['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider){
 	$routeProvider.
-	when('/main',{
+	when('main.html',{
 		templateUrl: 'main.html',
 		controller: 'MainController'
 	});
