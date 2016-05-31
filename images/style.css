@@ -3,17 +3,20 @@ body {
 }
 body
 {
-	background: #E0E0E0;
+	background: #C0C0C0;
 }
 
 img{
 width: 100%;
 }
 .footer {
-	padding-top: 40px;
-	padding-bottom: 40px;
-	margin-top: 40px;
+	background-color: #1b6d85;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	margin-top: 30px;
 	border-top: 1px solid #eee;
+	color:white !important;
+	font-size: 1.5em;
 }
 
 /* Main marketing message and sign up button */
