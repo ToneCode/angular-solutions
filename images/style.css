@@ -61,19 +61,29 @@ width: 100%;
 @media(max-width:768px) {
 
 	.header {
-		text-align: center;
-		padding: 20%;
+		padding: 140px 0 60px;
+		background-size: cover;
+		width: 100%;
+		border-bottom: 2px solid #c9c9c9;
 	}
 
-	.header h1 {
-		font-size: 4em;
-	}
+}
 
-	.header p {
-		font-size: 1.1em;
-	}
+/***
+* Flexbox Sticky Footer
+* http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+***/
 
-	.header .btn {
-		padding: 5px 12px 5px 12px;
-	}
+/*corrects IE min-height bug*/
+html { display: flex;}
+body { width: 100%;}
+
+.sfooter {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.sfooter-content {
+	flex: 1 0 auto;
 }
